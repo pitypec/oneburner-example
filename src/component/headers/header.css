@@ -1,0 +1,48 @@
+.main-header {
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 3rem;
+}
+
+.logo a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+.nav-link {
+  flex: 1;
+  margin-left: 3rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  list-style: none;
+}
+.nav-list-item {
+  padding: 0 2rem;
+}
+.nav-list-item a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav-right-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav-right-list .nav-right-list-item {
+  padding: 0 2rem;
+}
+.nav-right-list .nav-right-list-item a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.try a {
+  padding: 0.5rem 2rem;
+  border-radius: 4rem;
+  background: cyan;
+}

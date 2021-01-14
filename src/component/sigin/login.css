@@ -1,0 +1,51 @@
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+}
+.mention {
+  margin-bottom: 3rem;
+}
+.mention p {
+  text-transform: capitalize;
+  text-align: center;
+}
+.prob {
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+label {
+  align-self: flex-start;
+  margin: 0.6rem;
+  text-transform: capitalize;
+}
+.log-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  outline: none;
+  color: #010101;
+  padding: 0.5rem;
+}
+::placeholder {
+  padding: 0.1rem;
+}
+.log-btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background: cyan;
+}

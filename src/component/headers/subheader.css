@@ -1,0 +1,12 @@
+.sub-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 2rem;
+}
+.nav-logo {
+  flex: 1;
+}
+.span-one {
+  margin-right: 0.5rem;
+}
