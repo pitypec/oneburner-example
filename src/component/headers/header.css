@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1rem 3rem;
+  margin: 1.5rem 3rem;
 }
 
 .logo a {
@@ -37,12 +37,14 @@
 .nav-right-list .nav-right-list-item {
   padding: 0 2rem;
 }
-.nav-right-list .nav-right-list-item a {
-  text-decoration: none;
-  text-transform: capitalize;
-}
 .try a {
   padding: 0.5rem 2rem;
   border-radius: 4rem;
-  background: cyan;
+  color: #fff;
+  background: #00008b;
+  text-transform: lowercase !important;
+}
+.nav-right-list .nav-right-list-item a {
+  text-decoration: none;
+  text-transform: capitalize;
 }

@@ -64,8 +64,10 @@
   height: 40px;
   border-radius: 50px;
   border: none;
-  background: cyan;
+  background: #00008b;
   margin: 1.5rem 0;
+  color: #fff;
+  text-transform: capitalize;
 }
 textarea {
   outline: none;

@@ -38,7 +38,7 @@ const Headers = () => {
             <Link to='/product'>login</Link>
           </li>
           <li className='nav-right-list-item try'>
-            <Link to='/product'>try fro free</Link>
+            <Link to='/product'>try for free</Link>
           </li>
         </ul>
       </div>

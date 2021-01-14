@@ -32,16 +32,16 @@ const footer = () => {
             <div className='social'>
               <ul>
                 <li>
-                  <AiFillFacebook />
+                  <AiFillFacebook size={20} />
                 </li>
                 <li>
-                  <AiFillTwitterSquare />
+                  <AiFillTwitterSquare size={20} />
                 </li>
                 <li>
-                  <AiFillLinkedin />
+                  <AiFillLinkedin size={20} />
                 </li>
                 <li>
-                  <FaSnapchatSquare />
+                  <FaSnapchatSquare size={20} />
                 </li>
               </ul>
             </div>
