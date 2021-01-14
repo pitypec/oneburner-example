@@ -72,3 +72,49 @@
 textarea {
   outline: none;
 }
+
+/*...............right side................*/
+
+.right-container {
+  margin-top: 2rem;
+}
+.right-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  line-height: 2px;
+  letter-spacing: 1px;
+  white-space: wrap;
+}
+.right-container > p {
+  width: 500px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+.list-of-offices {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.list-of-offices h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.list-of-offices > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-of-offices > div div {
+  width: 160px;
+}
+.list-of-offices > div div h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.list-of-offices > div div p {
+  margin-bottom: 1rem;
+}

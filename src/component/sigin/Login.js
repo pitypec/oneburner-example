@@ -1,6 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../footer/subFooter';
 import Header from '../headers/subHeader';
+import { AiFillFacebook, AiFillTwitterSquare } from 'react-icons/ai';
+import { FcGoogle } from 'react-icons/fc';
 
 const Login = () => {
   return (
@@ -19,6 +22,25 @@ const Login = () => {
           <button className='log-btn' type='submit'>
             log in
           </button>
+          <p className='forgt-pass'>
+            <Link>forgort password?</Link>
+          </p>
+          <div className='social-media'>
+            <p> -Or signin with: </p>
+            <div className='social-log'>
+              <ul>
+                <li>
+                  <AiFillFacebook size={20} />
+                </li>
+                <li>
+                  <AiFillTwitterSquare size={20} />
+                </li>
+                <li>
+                  <FcGoogle size={20} />
+                </li>
+              </ul>
+            </div>
+          </div>
         </form>
       </div>
       <Footer />

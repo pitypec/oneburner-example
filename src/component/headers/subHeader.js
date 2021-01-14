@@ -15,7 +15,7 @@ const SubHeaders = () => {
       <div className='nav-right-one'>
         <ul className='nav-right-list'>
           <li className='nav-right-list-item try'>
-            <span className='span-one'>newCustomer?</span>
+            <span className='span-one'>New Customer?</span>
             <Link to='/product'>try for free</Link>
           </li>
         </ul>
