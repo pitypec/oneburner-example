@@ -1,7 +1,6 @@
 .main-footer {
   display: flex;
   flex-direction: column;
-
   width: 100%;
   min-height: 20rem;
   margin-bottom: 2rem;
@@ -73,8 +72,9 @@ div.social {
   align-items: center;
   width: 100px;
   height: 20px;
-  border: 1px solid violet;
+  border: 1px solid #462686;
   padding: 1rem 0;
+  margin-top: 1rem;
 }
 .col-one div img {
   width: 10px;
@@ -110,8 +110,15 @@ div.social {
 }
 .footer-two {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-two div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .footer-two > p {
   align-self: flex-start;

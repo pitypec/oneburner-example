@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { AiOutlineDown } from 'react-icons/ai';
+import { AiOutlineDown, AiOutlineArrowRight } from 'react-icons/ai';
 import logo from '../../images/Logo.png';
 
 const Headers = () => {
@@ -38,7 +38,10 @@ const Headers = () => {
             <Link to='/product'>login</Link>
           </li>
           <li className='nav-right-list-item try'>
-            <Link to='/product'>try for free</Link>
+            <Link to='/product'>
+              try for free
+              <AiOutlineArrowRight />
+            </Link>
           </li>
         </ul>
       </div>

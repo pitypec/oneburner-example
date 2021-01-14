@@ -1,0 +1,37 @@
+.hm-one {
+  height: 80vh;
+}
+.hm-two {
+  background: #7837f8;
+  height: 300px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hm-two > p {
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.hm-two-row {
+  display: flex;
+  justify-content: space-around;
+}
+.hm-two-row p {
+  width: 600px;
+}
+.list-item ul {
+  list-style: none;
+}
+.list-item ul li {
+  color: #fff;
+}
+.list-item ul li a {
+  padding-left: 2px;
+}
+
+.icon > * {
+  fill: '#fff';
+}
