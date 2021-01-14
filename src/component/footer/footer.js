@@ -173,11 +173,9 @@ const footer = () => {
         </div>
       </div>
       <div className='footer-two'>
-        <div className='footer-row-three'>
-          <p className='copyright'>
-            &copy;2020 oneburner.com All Rights Reserved
-          </p>
-        </div>
+        <p className='copyright'>
+          &copy;2020 oneburner.com All Rights Reserved
+        </p>
       </div>
     </footer>
   );

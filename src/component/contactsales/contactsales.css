@@ -4,16 +4,20 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #f2f2f2;
+  background: whitesmoke;
   margin: 3rem 0;
 }
 .contact-left {
   width: 600px;
-  background-color: whitesmoke;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 4px 4px #cdcdcd;
 }
 .contact-left form {
   width: 400px;
   margin: 0 auto;
+  margin-top: 2rem;
 }
 .contact-left form > div {
   display: flex;
@@ -62,4 +66,7 @@
   border: none;
   background: cyan;
   margin: 1.5rem 0;
+}
+textarea {
+  outline: none;
 }
